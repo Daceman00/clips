@@ -9,11 +9,8 @@ export class AlertComponent implements OnInit{
   @Input() color = '';
   
   constructor(){
-
   }
-
   ngOnInit(): void {
-    
   }
 
   get bgColor(){

@@ -5,6 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ManageComponent } from '../video/manage/manage.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     AuthModalComponent,
     LoginComponent,
     RegisterComponent,
+ 
   ],
   imports: [
     CommonModule,
